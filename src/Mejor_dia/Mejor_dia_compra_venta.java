@@ -1,7 +1,8 @@
 package Mejor_dia;
 
 public class Mejor_dia_compra_venta {
-	int vector [] = {17,3,6,9,15,8,6,1,10};
+	// inicializando vector valores predefinidos
+	int vector [] = {17,3,6,9,15,8,6,1,10}; 
 	int valor;
 	int ganacia_mayor;
 	int vector_ganacia[];
@@ -12,11 +13,13 @@ public class Mejor_dia_compra_venta {
 		vector_ganacia = new int[2];
 		}
 	
-	// función 
-	
 	public void mejor_dia() {
+		//primer ciclo recorre todo el vector
 		for(int i=0;i<vector.length;i++) {
 			
+			/* segundo for recorre el vector desde la posición del otro for
+			 hasta el final del vector
+			 */
 			for(int j=i+1;j<vector.length;j++) {
 				
 				if(vector[i]<vector[j]) {
