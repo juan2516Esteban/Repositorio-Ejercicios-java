@@ -10,7 +10,8 @@ public class Mejor_dia_compra_venta {
 		this.valor=0;
 		this.ganacia_mayor=0;
 		vector_ganacia = new int[2];
-		//juan esteban
+
+		 //juan esteban
 	}
 	
 	public void mejor_dia() {
