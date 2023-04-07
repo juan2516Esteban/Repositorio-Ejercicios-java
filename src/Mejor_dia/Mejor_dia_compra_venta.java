@@ -12,8 +12,6 @@ public class Mejor_dia_compra_venta {
 		vector_ganacia = new int[2];
 		}
 	
-	// función 
-	
 	public void mejor_dia() {
 		for(int i=0;i<vector.length;i++) {
 			
